@@ -18,8 +18,8 @@ def Menu():
     global l
     error = True
     print("----------------------------------------------")
-    print("Bienvenu sur mon convertisseur de temperature")
-    print("---------------FDP---------------------------")
+    print("Bienvenue sur mon convertisseur de temperature")
+    print("----------------------------------------------")
     i=1
     l=[]
     for k,v in conv:
@@ -64,8 +64,8 @@ while continuer == 1:
             assert 0<=continuer<2
             error2=False
         except ValueError:
-            print(":rage: choisie entre 0 pour non et 1 pour oui :rage:")
+            print("choisie entre 0 pour non et 1 pour oui")
             error2=True
         except AssertionError:
-            print("J'ai dis choisie entre 0 pour non et 1 pour oui :rage::rage::rage::rage:")
+            print("choisie entre 0 pour non et 1 pour oui ")
             error2=True
